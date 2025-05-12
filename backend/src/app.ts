@@ -8,7 +8,7 @@ const app = express()
 const PORT = process.env.PORT || 5000
 
 app.use(cors({
-    origin: "https://localhsot:5173" // Vite port
+    origin: "http://localhsot:5173" // Vite port
 }))
 
 app.use(express.json())
